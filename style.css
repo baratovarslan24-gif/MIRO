@@ -136,3 +136,33 @@ body {
   color: #05003899;
   letter-spacing: 1px;
 }
+.footer {
+  padding: 46px 40px;
+  margin-left: -80px;
+  width: 1355px;
+  height: 117px;
+  background-color: #050038;
+}
+.footer__list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+.footer__list-item {
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+}
+.footer__link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.footer__link:hover {
+  color: red;
+}
