@@ -11,16 +11,23 @@ body {
   padding: 34px 50px;
 }
 .header__list {
+  margin-left: -45px;
   display: flex;
   align-items: center;
   list-style: none;
   gap: 34px;
 }
-.header__list-item {
+
+.header__link {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #050038;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.header__link:hover {
+  color: blue;
 }
 .hero {
   margin-bottom: 120px;
@@ -87,8 +94,13 @@ body {
   color: #4262ff;
   text-decoration: none;
   border-bottom: 1px solid #4262ff;
+  transition: 0.5s;
 }
 .team__img {
   width: 550px;
   height: 535px;
+}
+.more:hover {
+  color: red;
+  border-bottom: 1px solid red;
 }
