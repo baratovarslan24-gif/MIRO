@@ -158,7 +158,7 @@ body {
   border-bottom: 1px solid red;
 }
 .redactor {
-  margin-bottom: 94px;
+  margin-bottom: 148px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
@@ -186,6 +186,43 @@ body {
   line-height: 24px;
   color: #05003899;
   letter-spacing: 1px;
+}
+.style__title {
+  margin-bottom: 47px;
+  margin-left: 70px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 1px;
+  color: #050038;
+}
+.style__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.style__left {
+  margin-left: 86px;
+}
+.style__left-title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #050038;
+}
+.style__left-text {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #050038;
+}
+.style__right {
+  margin-right: 70px;
+  margin-bottom: 178px;
+  width: 700px;
+  height: 517px;
 }
 .inst__title {
   margin-left: 70px;
