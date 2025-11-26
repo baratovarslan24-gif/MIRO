@@ -424,6 +424,58 @@ body {
   line-height: 20px;
   color: rgba(5, 0, 56, 0.6);
 }
+.registr {
+  padding: 0 40px 120px;
+}
+.registr__card {
+  padding: 118px 230px 120px;
+  width: 1120px;
+  height: 584px;
+  background-color: #050038;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registr__title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 19px;
+}
+.registr__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0;
+}
+.registr__link {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+.registr__btn {
+  padding: 12px 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #4262ff;
+  border-radius: 32px;
+  width: 251px;
+  height: 48px;
+  background: #4262ff;
+}
 .footer {
   padding: 46px 40px;
   margin-left: -80px;
